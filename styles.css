@@ -15,6 +15,50 @@ body {
 }
 
 .brand-logo {
+    background-color: #171010;
+    font-size: 1.2rem;
+    color: #EDEDED;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+    color: inherit;
+    text-decoration: none;
+}
+
+.brand-logo img {
+    width: 20%;
+}
+
+.brand-logo-name {
+    margin-left: 1rem;
+}
+
+.main-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.main-nav a:hover {
+    color: #FF1E56;
+}
+
+.dropdown a {
+    display: none;
+}
+
+.main-header {
     display: flex;
     align-items: center;
     font-size: 1.25em;
@@ -36,8 +80,10 @@ body {
     padding: 0;
     list-style: none;
     align-items: center;
+    height: 140px;
 }
 
+<<<<<<< HEAD
 .main-nav a {
     color: inherit;
     text-decoration: none;
@@ -89,4 +135,10 @@ body {
 
 .main-body {
     background-color: #1B1A17;
+=======
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+>>>>>>> abe06a7a6c31f78c0f8ae728e7a8aa86047fad71
 }
